@@ -9,8 +9,8 @@ function App() {
           <h1>Hi, i am</h1>
         </div>
       </div> */}
-      <div className="min-h-screen flex items-start pt-32 md:pt-40">
-        <div>
+      <div className="min-h-screen flex items-start pt-32 md:pt-40 px-6">
+        <div className="w-full max-w-6xl mx-auto sm:pl-8 md:pl-20">
           {/* Heading */}
           <h1 className="font-extrabold leading-tight text-white text-4xl sm:text-6xl lg:text-7xl">
             <span className="block text-slate-300 lowercase">hi, i am</span>
@@ -37,7 +37,7 @@ function App() {
             </a>
 
             <a
-              href="/assets/cv-maulana.pdf"
+              href="/assets/CV-maulana ibnu fajar.pdf"
               className="px-5 py-3 rounded-xl border border-[#00ADB5] text-[#00ADB5] font-medium hover:bg-teal-500/10 transition flex items-center gap-2"
             >
               <IoDocumentTextOutline className="text-xl" />
